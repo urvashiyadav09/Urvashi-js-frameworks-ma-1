@@ -1,0 +1,14 @@
+.container-fluid{
+
+	height: 900px;
+	width: 850px;
+	margin-left: 400px;
+	padding-top: 100px;
+}
+.container-fluid h1{
+	text-align: center;
+	font-size: 2em;
+}
+.carousel-inner img{
+	padding-top: 50px;
+}

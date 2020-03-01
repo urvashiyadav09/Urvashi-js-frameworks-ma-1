@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" , initial-scale="1.0">
+	<title>Image slider with jquery</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+	<script type="text/javascript" src="javascript/script.js"></script>
+
+</head>
+
+<body>
+	<div class="[ container-fluid ]">
+		<div class="[ row ]">
+			<div class="[ col-sm-12 ]">
+				<h1>Images Slider with Jquery</h1>
+				<div id="imageSlider" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#imageSlider" data-slide-to="0" class="active"></li>
+						<li data-target="#imageSlider" data-slide-to="1"></li>
+						<li data-target="#imageSlider" data-slide-to="2"></li>
+						<li data-target="#imageSlider" data-slide-to="3"></li>
+						<li data-target="#imageSlider" data-slide-to="4"></li>
+						<li data-target="#imageSlider" data-slide-to="5"></li>
+
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="images/birdred.jpg" alt="red bird">
+						</div>
+						<div class="carousel-item">
+							<img src="images/bloomblossom.jpg" alt="bloom blossom">
+						</div>
+						<div class="carousel-item">
+							<img src="images/mapleleaf.jpg" alt="maple leaf">
+						</div>
+						<div class="carousel-item">
+							<img src="images/reddahlia.jpg" alt="red dahlia">
+						</div>
+						<div class="carousel-item">
+							<img src="images/cubtiger.jpg" alt="cub tiger">
+						</div>
+						<div class="carousel-item">
+							<img src="images/naturebird.jpg" alt="nature bird">
+						</div>
+
+						<a class="carousel-control-prev" href="#imageSlider" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#imageSlider" role="button" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+
+
+
+</body>
+
+</html>
